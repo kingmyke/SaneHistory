@@ -1,0 +1,211 @@
+@media (max-width: 991px) {
+  .container {
+    margin: 0px 120px;
+  }
+  .nav .hamburger-btn {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+  .nav .hamburger-btn:after {
+    border-radius: 50%;
+  }
+  .nav .hamburger-btn span {
+    display: block;
+    height: 2px;
+    width: 16px;
+    background-color: var(--primary-color);
+    position: relative;
+  }
+  .nav .hamburger-btn span:before,
+  .nav .hamburger-btn span:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--primary-color);
+  }
+  .nav .hamburger-btn span:before {
+    top: -6px;
+  }
+  .nav .hamburger-btn span:after {
+    top: 6px;
+  }
+  .navItem {
+    position: fixed;
+    background-color: var(--primary-font-color);
+    padding: 0 15px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .navItem.open {
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+    transition: all 0.3s ease-in;
+  }
+  .navItem .close-nav-menu {
+    height: 40px;
+    width: 40px;
+    display: block;
+    font-size: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    text-align: center;
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .navItem .close-nav-menu:after {
+    border-radius: 50%;
+  }
+  .navItem-inner {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .navItem-inner .navLink a:hover {
+    color: gray;
+    transition: all 0.3s ease;
+  }
+  .navItem-inner .navLink {
+    color: var(--hover-color);
+    transition: all 0.3s ease;
+  }
+  .navItem ul {
+    padding: 15px;
+  }
+  .navItem ul li {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .navItem ul li:last-child {
+    margin-bottom: 0;
+  }
+  .navItem ul li a {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--primary-color);
+    padding: 5px 30px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+  }
+  .navItem-inner .navLink a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--primary-color);
+  }
+
+  .headline h2 {
+    font-size: 1.5rem;
+  }
+  .history-computer {
+    height: 100vh;
+  }
+
+  .history-computer h2,
+  .history-details-inner-left h2,
+  .extend-com-inner h2,
+  .com-birth-inner h2 {
+    font-size: 2rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .com-parts .com-parts-img img,
+  .com-birth-details-img img {
+    width: 327px;
+    height: 258px;
+    object-fit: cover;
+  }
+  .com-parts-img,
+  .history-details-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .history-details-left p,
+  .history-details-inner-right p,
+  .com-parts-details p {
+    margin-bottom: 0rem;
+    line-height: 1.5rem;
+  }
+  .history-details-right {
+    margin-top: 1rem;
+  }
+  .com-details,
+  .com-parts-inner,
+  .com-birth-details,
+  .about-item,
+  .another-about-d {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .history-details-inner-left img {
+    width: 300px;
+    height: 376px;
+    object-fit: cover;
+  }
+  .extend-com-inner {
+    padding-top: 1rem;
+  }
+  .inventor-deep-details img {
+    max-width: 100%;
+  }
+  .about-item-inner {
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+  }
+  .contact-details h2 {
+    font-size: 3rem;
+  }
+  .contact-details p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+}
+@media (max-width: 774px) {
+  .events-inner-details h2,
+  .inventor-details h2 {
+    font-size: 2rem;
+  }
+  .history-details-inner-left img {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+  }
+  .com-parts .com-parts-img img,
+  .com-birth-details-img img {
+    width: 303px;
+    height: 216px;
+    object-fit: cover;
+  }
+  .container {
+    margin: 0px 0px;
+  }
+}

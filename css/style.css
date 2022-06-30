@@ -1,0 +1,352 @@
+/* ====================Global css style here================ */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #243010;
+  --primary-font-color: #23231a;
+  --hover-color: #011c27;
+}
+body {
+  background-color: var(--primary-color);
+  color: var(--hover-color);
+  font-family: "Ubuntu", sans-serif;
+}
+.container {
+  margin: 0px 150px;
+}
+.d-flex {
+  display: flex;
+}
+.flex-cloum {
+  flex-direction: column;
+}
+.justify-content {
+  justify-content: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.align-items {
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+/* =====================header section style strat============== */
+.header {
+  background-color: var(--hover-color);
+  color: var(--primary-color);
+  padding: 20px 0px;
+}
+.nav .logo a {
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+  color: var(--primary-color);
+}
+.nav .logo a span {
+  color: crimson;
+}
+.nav .navItem .navItem-inner .navLink a {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  margin-right: 1rem;
+  font-family: "Ubuntu", sans-serif;
+}
+.nav .navItem .navItem-inner .navLink a:hover {
+  color: grey;
+  transition: all 0.3s ease-in-out;
+}
+.hamburger-btn {
+  display: none;
+}
+.close-nav-menu {
+  display: none;
+}
+/* =====================Main css style start=============== */
+.bg-details {
+  width: 100%;
+  height: 777px;
+  position: relative;
+}
+.headline {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 1170px;
+  max-width: 100%;
+  padding: 30px;
+}
+.headline h2 {
+  color: var(--primary-color);
+  text-transform: uppercase;
+  line-height: 70px;
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+.history-computer {
+  height: 80vh;
+  text-align: left;
+}
+.extra {
+  height: 120vh;
+}
+.history-computer h2,
+.history-details-inner-left h2,
+.extend-com-inner h2,
+.com-birth-inner h2 {
+  font-size: 2.5rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  line-height: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.history-details-left {
+  margin-right: 1rem;
+}
+.history-details-left p,
+.history-details-inner-right p,
+.com-parts-details p,
+.extend-com-inner p,
+.events-inner-details p,
+.event-items-details p,
+.inventor-details p,
+.inventor-deep-details p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 2rem;
+}
+.history-details-inner-left img {
+  width: 600px;
+  height: 800px;
+  object-fit: cover;
+}
+.history-details-inner-right p {
+  margin-left: 1rem;
+}
+.com-parts {
+  height: 100vh;
+}
+.com-parts .com-parts-img img,
+.com-birth-details-img img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+}
+.extra-com {
+  height: 60vh;
+}
+.com-parts-details p {
+  margin-left: 1rem;
+}
+.extend-com {
+  height: 320vh;
+  margin-top: 3rem;
+}
+.second {
+  margin-top: 1rem;
+}
+.extend-com-inner p {
+  width: 500px;
+}
+.com-birth {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      45deg,
+      rgba(254, 246, 210, 0.53) 0%,
+      rgba(254, 246, 210, 0.53) 14.286%,
+      rgba(221, 240, 216, 0.53) 14.286%,
+      rgba(221, 240, 216, 0.53) 28.572%,
+      rgba(188, 233, 223, 0.53) 28.572%,
+      rgba(188, 233, 223, 0.53) 42.858%,
+      rgba(156, 227, 229, 0.53) 42.858%,
+      rgba(156, 227, 229, 0.53) 57.144%,
+      rgba(123, 220, 235, 0.53) 57.144%,
+      rgba(123, 220, 235, 0.53) 71.42999999999999%,
+      rgba(90, 214, 242, 0.53) 71.43%,
+      rgba(90, 214, 242, 0.53) 85.71600000000001%,
+      rgba(57, 207, 248, 0.53) 85.716%,
+      rgba(57, 207, 248, 0.53) 100.002%
+    ),
+    linear-gradient(
+      135deg,
+      rgb(246, 99, 200) 0%,
+      rgb(246, 99, 200) 12.5%,
+      rgb(223, 98, 196) 12.5%,
+      rgb(223, 98, 196) 25%,
+      rgb(199, 97, 192) 25%,
+      rgb(199, 97, 192) 37.5%,
+      rgb(176, 96, 188) 37.5%,
+      rgb(176, 96, 188) 50%,
+      rgb(152, 95, 184) 50%,
+      rgb(152, 95, 184) 62.5%,
+      rgb(129, 94, 180) 62.5%,
+      rgb(129, 94, 180) 75%,
+      rgb(105, 93, 176) 75%,
+      rgb(105, 93, 176) 87.5%,
+      rgb(82, 92, 172) 87.5%,
+      rgb(82, 92, 172) 100%
+    );
+}
+.com-birth-inner h2 {
+  padding-top: 3rem;
+}
+.com-birth-details {
+  margin-top: 2rem;
+}
+.com-birth-details-inner {
+  margin-left: 2rem;
+  text-align: left;
+}
+.footer {
+  width: 100%;
+  height: 20vh;
+  background-color: #23231a;
+}
+.socialIcon a {
+  border: 1px solid var(--primary-color);
+  padding: 10px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  margin-right: 1rem;
+}
+.socialIcon a:hover {
+  background-color: var(--primary-font-color);
+  color: var(--primary-color);
+}
+.socialIcon a img {
+  width: 25px;
+  height: 25px;
+}
+.events-inner-details h2,
+.inventor-details h2 {
+  font-size: 3rem;
+  margin: 20px 0px;
+}
+.event-items {
+  padding: 30px 0px;
+}
+.event-items-details img {
+  max-width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+.event-items-details p {
+  max-width: 100%;
+}
+.event-items-details h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--primary-font-color);
+  margin-bottom: 1rem;
+}
+.event-items-details h2 {
+  margin-bottom: 1rem;
+}
+.inventor-deep-details img {
+  object-fit: cover;
+  margin-top: 1rem;
+}
+.inventor-deep-details p:last-child {
+  font-size: 12px;
+  color: gray;
+  margin-top: 1rem;
+}
+
+.about h2 {
+  color: var(--hover-color);
+  font-style: italic;
+}
+.about-us h2 {
+  font-size: 2rem;
+  margin: 30px 0px;
+}
+.about-item-inner {
+  border: 1px solid var(--hover-color);
+  padding: 30px;
+  margin-right: 1rem;
+}
+.about-item-inner i {
+  font-size: 3rem;
+  color: var(--primary-font-color);
+}
+.another-about-d {
+  margin-bottom: 2rem;
+}
+.about-item-inner p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+.about-d-item {
+  margin-right: 1rem;
+}
+.about-d-item ul li {
+  list-style-type: disc;
+  line-height: 1.5rem;
+}
+.contact {
+  background-image: linear-gradient(
+    90deg,
+    rgb(160, 222, 219),
+    rgb(3, 165, 209)
+  );
+  height: 100vh;
+  width: 100%;
+}
+
+.contact-details h2 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 25px 0px;
+}
+.contact-details p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+.contact-input {
+  margin-top: 3rem;
+}
+.form input,
+.form textarea {
+  font-size: 1.3rem;
+  padding: 1rem 0;
+  text-indent: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  outline: none;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.form textarea {
+  max-width: 55.5rem;
+  height: 10rem;
+  margin-bottom: 1.5rem;
+  font-family: "Ubuntu", sans-serif;
+}
+#subBtn {
+  font-size: 1.3rem;
+  font-family: "Ubuntu", sans-serif;
+  cursor: pointer;
+  background-color: var(--hover-color);
+  color: var(--primary-color);
+  border: none;
+}
+#subBtn:hover {
+  background-color: var(--primary-font-color);
+}
