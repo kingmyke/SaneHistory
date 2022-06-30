@@ -2,9 +2,9 @@
 ##### SaneHistory is a site that aims to bring history to the finger tips of people. The site was created in a bid to satisfy curious minds on the history of investions, events, places and people. SaneHistory is the go-to site for awesome historical facts.
 
 
-## Features
+# Features
 
-# Existing Features
+## Existing Features
 Navigation Bar
 
 Featured five pages, the full responsive navigation bar includes links to the Logo, Home page, History, Event, About and Contact page and is identical in each page to allow for easy navigation. 
@@ -17,7 +17,7 @@ Featured five pages, the full responsive navigation bar includes links to the Lo
 
 5.Color use from = colorplate website
 
-6.Picturs use from = unplash,Pixabay and google.
+
 
 7.fonts use from = google font but it was downloaded for offline.
 
@@ -26,3 +26,8 @@ Featured five pages, the full responsive navigation bar includes links to the Lo
 9.css root element create for easy to color change.
 
 10.no jquery no bootstrap and also no any cdn js.
+
+# Credits
+
+## Media
+Pictures from pixabay, google and unsplash
